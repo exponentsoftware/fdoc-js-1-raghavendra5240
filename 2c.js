@@ -4,12 +4,13 @@
 // ["C", "B", "A"]
 
 function reverse(array) {
-    var output = [];
+    // var output = [];
     while (array.length) {
-      output.push(array.pop());
+    //   output.push(array.pop());
+    console.log(array.pop());
     }
   
-    return output;
+    // return output;
   }
   
   console.log(reverse(["A","B","C"]));
